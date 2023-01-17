@@ -1,4 +1,3 @@
-import React from 'react'
 import formatDate from '../../../utils/formatDate'
 import { useDispatch } from 'react-redux'
 import { toggleCheckedTodo, removeTodo } from '../../../store/todoSlice';

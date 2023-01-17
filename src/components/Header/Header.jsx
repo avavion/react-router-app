@@ -1,6 +1,25 @@
+import Container from "../Container/Container"
+import { NavLink } from "react-router-dom"
+
 const Header = () => {
     return (
-        <div>Header</div>
+        <header>
+            <Container>
+                <nav>
+                    <ul>
+                        <li>
+                            <NavLink to="/">Todos</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/user">User Profile</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/secret">*secret*</NavLink>
+                        </li>
+                    </ul>
+                </nav>
+            </Container>
+        </header>
     )
 }
 

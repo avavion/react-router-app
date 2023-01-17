@@ -3,6 +3,7 @@ import Root from "../pages/Root";
 import HomePage from "../pages/HomePage";
 import UserPage from "../pages/UserPage";
 import ErrorPage from "../pages/ErrorPage";
+import SecretPage from "../pages/SecretPage";
 
 const router = createBrowserRouter([{
     path: "/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([{
         {
             path: '/user',
             element: <UserPage />,
+        },
+        {
+            path: '/secret',
+            element: <SecretPage />
         }
     ]
 }])
