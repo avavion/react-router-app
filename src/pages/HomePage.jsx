@@ -1,7 +1,12 @@
+import TodoForm from "../components/Todos/TodoForm/TodoForm"
+import Todos from "../components/Todos/Todos"
+
 const HomePage = () => {
     return (
         <section>
-            <h2>Первая секция на главной странице</h2>
+            <h2>Список задач:</h2>
+            <TodoForm />
+            <Todos />
         </section>
     )
 }
