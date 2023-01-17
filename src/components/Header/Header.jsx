@@ -16,6 +16,9 @@ const Header = () => {
                         <li>
                             <NavLink to="/secret">*secret*</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="https://github.com/avavion/react-router-app" target="_blank">GitHub</NavLink>
+                        </li>
                     </ul>
                 </nav>
             </Container>
